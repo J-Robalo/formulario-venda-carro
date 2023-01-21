@@ -30,8 +30,16 @@ input {
   width: 400px;
 }
 
-input[type="text"], input[type="number"], input[type="date"], input[type="file"];
-  width: 400
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="file"],
+textarea {
+  width: 400;
+}
+
+textarea {
+  padding: 10px 5px;
 }
 
 /* Page header */
@@ -39,7 +47,7 @@ input[type="text"], input[type="number"], input[type="date"], input[type="file"]
 .header {
   height: 160px;
   padding: 20px;
-  background-color: #673ab7
+  background-color: #673ab7;
 }
 
 .header h3 {
@@ -55,5 +63,4 @@ input[type="text"], input[type="number"], input[type="date"], input[type="file"]
   margin: 0 auto;
   position: relative;
   top: -62px;
-
 }
